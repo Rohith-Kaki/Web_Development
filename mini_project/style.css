@@ -1,0 +1,21 @@
+.loader{
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    top: 40%;
+    left: 47%;
+    border-radius: 50%;
+    border: 7px solid #002A32;
+    border-top: 7px solid #EBA6A9;
+    animation: circle 1s ease-in infinite 0.1s normal;
+    
+}
+@keyframes circle{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
