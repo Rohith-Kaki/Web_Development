@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #390a8a;
+    color: white;
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+.color {
+    color: black;
+    font-weight: bold;
+}
+form{
+    margin:2rem 0 1rem 0;
+}
+form select,button,input{
+    width: 100%;
+    border: 1px solid black;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+form input{
+    font-size: 1rem;
+    height: 2.4rem;
+    padding-left: 0.5rem;
+    border: 1px solid black;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.4rem;
+} 
+.dropdown i{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.select-contianer img{
+    max-width: 2rem;
+}
+.select-contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+}
+.select-contianer select{
+    font-size: 1rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    padding-left: 11.5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn{
+    height: 3rem;
+    background-color: #390a8a;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold ;
+    cursor: pointer;
+}
